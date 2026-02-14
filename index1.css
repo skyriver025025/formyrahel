@@ -18,7 +18,14 @@
   width: 100%;
   height: 100%;
   filter: blur(0.1vmin);
-  background-image: radial-gradient(ellipse at top, transparent 0%, var(--dark-color)), radial-gradient(ellipse at bottom, var(--dark-color), rgba(145, 233, 255, 0.2)), repeating-linear-gradient(220deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 19px, transparent 19px, transparent 22px), repeating-linear-gradient(189deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 19px, transparent 19px, transparent 22px), repeating-linear-gradient(148deg, rgb(0, 0, 0) 0px, rgb(0, 0, 0) 19px, transparent 19px, transparent 22px), linear-gradient(90deg, rgb(255, 255, 250), rgb(240, 240, 240));
+  /* Perubahan Warna di Sini */
+  background-image: 
+    radial-gradient(ellipse at top, rgba(255, 253, 235, 0.5) 0%, #f5f5dc), 
+    radial-gradient(ellipse at bottom, #fffdd0, rgba(245, 222, 179, 0.4)), 
+    repeating-linear-gradient(220deg, #faf9f6 0px, #faf9f6 19px, transparent 19px, transparent 22px), 
+    repeating-linear-gradient(189deg, #faf9f6 0px, #faf9f6 19px, transparent 19px, transparent 22px), 
+    repeating-linear-gradient(148deg, #faf9f6 0px, #faf9f6 19px, transparent 19px, transparent 22px), 
+    linear-gradient(90deg, #fdf5e6, #f5f5dc);
 }
 
 .title {
